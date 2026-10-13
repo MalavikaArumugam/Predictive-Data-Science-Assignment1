@@ -1,0 +1,8 @@
+PYTHON EXECUTION VERIFICATION
+============================
+simple_linear_regression.py: exit code 0
+logistic_regression.py: exit code 0
+decision_tree_classifier.py: exit code 0
+svm_classifier.py: exit code 0
+naive_bayes.py: exit code 0
+market_basket_analysis.py: exit code 0

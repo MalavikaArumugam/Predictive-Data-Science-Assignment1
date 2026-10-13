@@ -1,0 +1,56 @@
+==========================================================
+MARKET BASKET ANALYSIS — ASSOCIATION RULES
+==========================================================
+Number of transactions: 5
+Minimum support: 0.40
+Minimum confidence: 0.60
+Frequent itemset ['beer']: support = 0.60
+Frequent itemset ['bread']: support = 0.80
+Frequent itemset ['cola']: support = 0.40
+Frequent itemset ['diaper']: support = 0.80
+Frequent itemset ['milk']: support = 0.80
+Frequent itemset ['beer', 'bread']: support = 0.40
+Frequent itemset ['beer', 'diaper']: support = 0.60
+Frequent itemset ['beer', 'milk']: support = 0.40
+Frequent itemset ['bread', 'diaper']: support = 0.60
+Frequent itemset ['bread', 'milk']: support = 0.60
+Frequent itemset ['cola', 'diaper']: support = 0.40
+Frequent itemset ['cola', 'milk']: support = 0.40
+Frequent itemset ['diaper', 'milk']: support = 0.60
+Frequent itemset ['beer', 'bread', 'diaper']: support = 0.40
+Frequent itemset ['beer', 'diaper', 'milk']: support = 0.40
+Frequent itemset ['bread', 'diaper', 'milk']: support = 0.40
+Frequent itemset ['cola', 'diaper', 'milk']: support = 0.40
+
+Association rules:
+['beer'] -> ['bread'] | confidence = 0.67, lift = 0.83
+['beer'] -> ['diaper'] | confidence = 1.00, lift = 1.25
+['diaper'] -> ['beer'] | confidence = 0.75, lift = 1.25
+['beer'] -> ['milk'] | confidence = 0.67, lift = 0.83
+['bread'] -> ['diaper'] | confidence = 0.75, lift = 0.94
+['diaper'] -> ['bread'] | confidence = 0.75, lift = 0.94
+['bread'] -> ['milk'] | confidence = 0.75, lift = 0.94
+['milk'] -> ['bread'] | confidence = 0.75, lift = 0.94
+['cola'] -> ['diaper'] | confidence = 1.00, lift = 1.25
+['cola'] -> ['milk'] | confidence = 1.00, lift = 1.25
+['diaper'] -> ['milk'] | confidence = 0.75, lift = 0.94
+['milk'] -> ['diaper'] | confidence = 0.75, lift = 0.94
+['beer'] -> ['bread', 'diaper'] | confidence = 0.67, lift = 1.11
+['beer', 'bread'] -> ['diaper'] | confidence = 1.00, lift = 1.25
+['beer', 'diaper'] -> ['bread'] | confidence = 0.67, lift = 0.83
+['bread', 'diaper'] -> ['beer'] | confidence = 0.67, lift = 1.11
+['beer'] -> ['diaper', 'milk'] | confidence = 0.67, lift = 1.11
+['beer', 'diaper'] -> ['milk'] | confidence = 0.67, lift = 0.83
+['beer', 'milk'] -> ['diaper'] | confidence = 1.00, lift = 1.25
+['diaper', 'milk'] -> ['beer'] | confidence = 0.67, lift = 1.11
+['bread', 'diaper'] -> ['milk'] | confidence = 0.67, lift = 0.83
+['bread', 'milk'] -> ['diaper'] | confidence = 0.67, lift = 0.83
+['diaper', 'milk'] -> ['bread'] | confidence = 0.67, lift = 0.83
+['cola'] -> ['diaper', 'milk'] | confidence = 1.00, lift = 1.67
+['cola', 'diaper'] -> ['milk'] | confidence = 1.00, lift = 1.25
+['cola', 'milk'] -> ['diaper'] | confidence = 1.00, lift = 1.25
+['diaper', 'milk'] -> ['cola'] | confidence = 0.67, lift = 1.67
+Interpretation: lift > 1 indicates positive association in this sample.
+Note: Tiny illustrative dataset, not a business recommendation.
+
+Process exit code: 0

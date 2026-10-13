@@ -1,0 +1,3 @@
+R execution note
+================
+Two base-R scripts are included. Run them from the project root in RStudio. No unverified R output is presented as executed output.

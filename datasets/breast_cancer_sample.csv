@@ -1,0 +1,9 @@
+radius,texture,smoothness,diagnosis
+14.2,20.1,0.12,benign
+11.5,18.2,0.09,benign
+13.0,19.4,0.10,benign
+18.5,25.1,0.16,malignant
+21.0,27.2,0.18,malignant
+19.2,24.7,0.15,malignant
+15.1,21.0,0.11,benign
+22.3,28.1,0.19,malignant

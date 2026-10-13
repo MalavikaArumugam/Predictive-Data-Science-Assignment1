@@ -1,0 +1,9 @@
+================================================
+GAUSSIAN NAIVE BAYES
+================================================
+Number of records : 10
+Training accuracy : 100.0%
+Prediction (5 study hours, 82% attendance): PASS
+Note: Illustrative dataset; training accuracy is not a test-set score.
+
+Process exit code: 0

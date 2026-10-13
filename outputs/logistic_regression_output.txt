@@ -1,0 +1,10 @@
+================================================
+LOGISTIC REGRESSION
+================================================
+Number of records : 10
+Training accuracy : 100.0%
+Predicted pass probability (6 hours, 88% attendance): 1.000
+Predicted class    : PASS
+Note: Illustrative dataset; training accuracy is not a test-set score.
+
+Process exit code: 0

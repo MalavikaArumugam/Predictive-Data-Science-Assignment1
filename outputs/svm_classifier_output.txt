@@ -1,0 +1,9 @@
+================================================
+LINEAR SVM CLASSIFIER
+================================================
+Number of records : 10
+Training accuracy : 80.0%
+Prediction (5 study hours, 82% attendance): PASS
+Note: Simple hinge-loss gradient descent teaching implementation.
+
+Process exit code: 0

@@ -1,0 +1,10 @@
+================================================
+SIMPLE LINEAR REGRESSION
+================================================
+Number of records : 8
+Regression equation: Score = 26.79 + 7.38 × Hours
+R-squared          : 0.995
+Predicted score for 6.5 study hours: 74.76
+Note: Illustrative dataset for learning only.
+
+Process exit code: 0

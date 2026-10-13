@@ -1,0 +1,2 @@
+data <- read.csv("datasets/hr_demand.csv"); model <- lm(employees_needed ~ month, data=data); next_month <- max(data$month)+1; forecast <- predict(model,newdata=data.frame(month=next_month))
+cat("HR ANALYTICS — HOURLY EMPLOYEE DEMAND\n"); cat("Historical observations:",nrow(data),"\n"); cat("Model: employees_needed ~ month\n"); cat("Forecast month:",next_month,"\n"); cat("Predicted demand:",round(as.numeric(forecast),1),"employees\n"); cat("Note: Consider seasonality, workload, leave, and business changes in real planning.\n")

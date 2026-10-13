@@ -1,0 +1,10 @@
+PYTHON OUTPUTS
+==============
+simple_linear_regression_output.txt
+logistic_regression_output.txt
+decision_tree_classifier_output.txt
+svm_classifier_output.txt
+naive_bayes_output.txt
+market_basket_analysis_output.txt
+
+R: see R_program_execution_status.txt

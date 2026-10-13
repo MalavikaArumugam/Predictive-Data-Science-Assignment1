@@ -1,0 +1,6 @@
+transaction,items
+T1,bread;milk
+T2,bread;diaper;beer;eggs
+T3,milk;diaper;beer;cola
+T4,bread;milk;diaper;beer
+T5,bread;milk;diaper;cola

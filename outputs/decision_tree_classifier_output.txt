@@ -1,0 +1,9 @@
+================================================
+DECISION TREE CLASSIFIER
+================================================
+Chosen split       : attendance <= 67.50
+Training accuracy  : 100.0%
+Prediction (5 study hours, 82% attendance): PASS
+Note: Deliberately small, one-split teaching tree.
+
+Process exit code: 0
